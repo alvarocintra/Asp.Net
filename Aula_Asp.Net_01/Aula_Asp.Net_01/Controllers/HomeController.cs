@@ -26,5 +26,10 @@ namespace Aula_Asp.Net_01.Controllers
 
             return View();
         }
+
+        public ActionResult Teste()
+        {
+            return View();
+        }
     }
 }
