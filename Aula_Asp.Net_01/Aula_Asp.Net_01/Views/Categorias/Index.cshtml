@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Lista de Categorias";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@foreach (string cat in ViewBag.Categorias)
+{
+    <p>@cat</p>
+}

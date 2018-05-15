@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_Asp.Net_01", "Aula_Asp.Net_01\Aula_Asp.Net_01.csproj", "{6AF67A8D-65B6-4AAF-A4EB-151303C381BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulaAsp.Net01_Models", "AulaAsp.Net01_Models\AulaAsp.Net01_Models.csproj", "{11252A52-ABE3-4575-8292-3A081822F1E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{6AF67A8D-65B6-4AAF-A4EB-151303C381BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AF67A8D-65B6-4AAF-A4EB-151303C381BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AF67A8D-65B6-4AAF-A4EB-151303C381BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11252A52-ABE3-4575-8292-3A081822F1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11252A52-ABE3-4575-8292-3A081822F1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11252A52-ABE3-4575-8292-3A081822F1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11252A52-ABE3-4575-8292-3A081822F1E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C8C3EF4-BF09-4C0E-B79B-7DF9451504D3}
 	EndGlobalSection
 EndGlobal
