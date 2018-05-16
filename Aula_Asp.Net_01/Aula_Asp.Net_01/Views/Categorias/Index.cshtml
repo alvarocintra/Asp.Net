@@ -1,12 +1,41 @@
-﻿
+﻿@using Aula_Asp.Net_01.Models
+@model Aula_Asp.Net_01.Models.Categoria
+
 @{
     ViewBag.Title = "Lista de Categorias";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+
+
 <h2>@ViewBag.Title</h2>
 
-@foreach (string cat in ViewBag.Categorias)
-{
-    <p>@cat</p>
-}
+<table style="width:80%">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(n => n.CategoriaId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(n => n.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(n => n.Ativo)
+        </th>
+    </tr>
+
+
+    @foreach (Categoria cat in ViewBag.Categorias)
+    {
+        <tr>
+            <td>
+                @cat.CategoriaId
+            </td>
+            <td>
+                @cat.Nome
+            </td>
+            <td>
+                @cat.Ativo
+            </td>
+        </tr>
+    }
+</table>
